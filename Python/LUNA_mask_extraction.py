@@ -63,9 +63,9 @@ Returns uint16 version
 ############
 #
 # Getting list of image files
-luna_path = "./test_subset01/"
-luna_subset_path = luna_path+"subset1/"
-output_path = "/home/jonathan/tutorial/"
+luna_path = "./test_subset01/csv/csv/train/"
+luna_subset_path = "./test_subset01/"
+output_path = "/tutorial/"
 file_list=glob(luna_subset_path+"*.mhd")      #鑾峰彇鎵�湁mhd鏂囦欢鐨勫畬鏁磋矾寰�
 
 #####################
